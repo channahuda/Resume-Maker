@@ -1,0 +1,106 @@
+/* .main {
+    width: 100vw;
+    height: 100vh;
+    max-width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    position: fixed;
+    top: 0%;
+} */
+
+.main {
+    width: 100%;
+    height: 100vh;
+    max-width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    position: fixed;
+    top: 0%;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+
+
+
+.resumeContainer {
+    width: 100%;
+    box-sizing: border-box;
+    background-color: rgb(254, 243, 244);
+    border-left: 1px solid rgba(0, 0, 0, 0.158);
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.resumeForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    padding: 3vmax;
+    justify-content: space-evenly;
+    height: 70%;
+    width: 40vh;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.267);
+}
+
+.resumeForm>div {
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+
+.resumeForm>div>input,
+.resumeForm>div>select,
+.resumeForm>div>textarea {
+    padding: 1vmax;
+    padding-right: 1vmax;
+    margin: 3px;
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid rgba(0, 0, 0, 0.267);
+    border-radius: 4px;
+    font: 300 0.9vmax;
+    outline: none;
+}
+
+.resumeForm>div>svg {
+    position: absolute;
+    transform: translateX(1vmax);
+    font-size: 1.6vmax;
+    color: rgba(0, 0, 0, 0.623);
+}
+
+.mainContainer {
+    border-left: 1px solid black;
+    background-color: rgb(254, 243, 244);
+    padding: 3rem 0;
+    align-items: center;
+}
+
+/* .mainContainer>h6 {
+    font-size: 100px;
+    font-weight: 100;
+    text-align: center;
+    margin-top: 0%;
+} */
+
+/* .mainContainer>img{
+    width: 30%;
+    display: block;
+    margin-top: -5%;
+    margin-bottom: 2%;
+    margin-left: auto;
+  margin-right: auto;
+} */
