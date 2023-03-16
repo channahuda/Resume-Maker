@@ -4,10 +4,9 @@ import './Home.css'
 import TextArea from './TextArea';
 import ReactQuill, { Quill } from 'react-quill';
 import 'react-quill/dist/quill.snow.css';
-import MovableTextArea from './MovableTextArea';
 
 const Education = () => {
-    const [text, setText] = useState('Education');
+    const [text, setText] = useState('Achievements');
 
     const handleChange = (value) => {
         setText(value);
